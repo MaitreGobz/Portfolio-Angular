@@ -1,0 +1,102 @@
+[
+    {
+        "id":1,
+        "name":"Portfolio avec VueJS",
+        "description": "Ce projet est un portfolio réalisé dans le cadre de ma formation de développeur web et web mobile. L'objectif est de présenter mes compétences, projets réalisés et d'offrir une plateforme interactive pour les visiteurs. L'application est développée avec Vue.js et ne comporte ni hébergement ni back-end.",
+        "technologies": ["VueJS", "GitHub"],
+        "images": [
+            "assets/images/img_portfolio_vuejs_1.png",
+            "assets/images/img_portfolio_vuejs_2.png",
+            "assets/images/img_portfolio_vuejs_3.png",
+            "assets/images/img_portfolio_vuejs_4.png"
+        ],
+        "github": "https://github.com/MaitreGobz/Mon-portfolio-Vue.JS",
+        "site": null,
+        "type": "Projet d'étude",
+        "features": [
+            "Ecriture dynamique",
+            "Fenêtre modale",
+            "Formulaire de contact"
+        ]
+    },
+    {
+        "id":2,
+        "name":"CV avec ReactJS",
+        "description": "Ce projet est un CV fictif réalisé dans le cadre de ma formation de développeur web et web mobile. L'objectif est de présenter des compétences et d'offrir une plateforme interactive pour les visiteurs. L'application est développée avec React.js et ne comporte ni hébergement ni back-end.",
+        "technologies": ["ReactJS", "Bootstrap","GitHub"],
+        "images": [
+            "assets/images/img_cv_reactjs_1.png",
+            "assets/images/img_cv_reactjs_2.png",
+            "assets/images/img_cv_reactjs_3.png",
+            "assets/images/img_cv_reactjs_4.png"
+        ],
+        "github": "https://github.com/MaitreGobz/Cv-ReactJS",
+        "site": null,
+        "type": "Projet d'étude",
+        "features": [
+            "Classe Bootstrap",
+            "Retour en haut de page",
+            "Formulaire de contact"
+        ]
+    },
+    {
+        "id":3,
+        "name":"Site 'La vie des plantes' avec Wordpress",
+        "description": "Ce projet est un site de boutique en ligne fictive réalisé dans le cadre de ma formation de développeur web et web mobile. La Vie des Plantes est une boutique en ligne dédiée à la vente de kits de plantations, graines, pots et accessoires pour cultiver des plantes chez soi. Ce projet a été réalisé avec WordPress à l’aide du logiciel Local (by Flywheel).",
+        "technologies": ["Worpress", "Local","GitHub"],
+        "images": [
+            "assets/images/img_site_wordpress_1.png",
+            "assets/images/img_site_wordpress_2.png",
+            "assets/images/img_site_wordpress_3.png",
+            "assets/images/img_site_wordpress_4.png"
+        ],
+        "github": "https://github.com/MaitreGobz/La-vie-des-plantes-avec-wordpress",
+        "site": null,
+        "type": "Projet d'étude",
+        "features": [
+            "Utilisation d'une solution CMS",
+            "Utilisation d'un gabarit de mise en page",
+            "Formulaire de contact"
+        ]
+    },
+    {
+        "id":4,
+        "name":"Site 'Au petit village' avec Angular",
+        "description": "Ce projet est un site de boutique en ligne fictive réalisé dans le cadre de ma formation de développeur web et web mobile. Au petit village est un site de boutique en ligne de figurine d'Astérix et Obélix simulé, il copmporte un outils de recherche par nom et d'un tri par prix.",
+        "technologies": ["Angular", "Bootstrap", "Typescript","GitHub"],
+        "images": [
+            "assets/images/img_village_angular_1.png",
+            "assets/images/img_village_angular_2.png",
+            "assets/images/img_village_angular_3.png",
+            "assets/images/img_village_angular_4.png"
+        ],
+        "github": "https://github.com/MaitreGobz/Projet-au-petit-village-avec-angular",
+        "site": null,
+        "type": "Projet d'étude",
+        "features": [
+            "Recherche dynamique par nom",
+            "Tri par prix croissant/décroissont",
+            "Formulaire de contact"
+        ]
+    },
+    {
+        "id":5,
+        "name":"Site 'Trouve ton artisan' avec Angular",
+        "description": "Ce projet est un site d'annuaire d'artisant de la région Auvergne-Rhône-Alpes fictif réalisé dans le cadre de ma formation de développeur web et web mobile. Une Single-Page Application (SPA) générée en utilisant Angular CLI version 19.2.9 standalone, couplée à Bootstrap 5.2.3 et SASS, pour rechercher et mettre en valeur les artisans de la région Auvergne-Rhône-Alpes.",
+        "technologies": ["Angular", "Bootstrap", "Typescript", "EmailJS", "Google Recaptcha", "GitHub"],
+        "images": [
+            "assets/images/img_artisan_angular_1.png",
+            "assets/images/img_artisan_angular_2.png",
+            "assets/images/img_artisan_angular_3.png",
+            "assets/images/img_artisan_angular_4.png"
+        ],
+        "github": "https://github.com/MaitreGobz/Projet-au-petit-village-avec-angular",
+        "site": "https://maitregobz.github.io/Trouve-ton-artisan-avec-angular/",
+        "type": "Projet d'étude",
+        "features": [
+            "Recherche dynamique par nom, spécialité ou localisation",
+            "Tri par spécialité d'artisanat",
+            "Formulaire de contact protégé par Recaptcha"
+        ]
+    }
+]

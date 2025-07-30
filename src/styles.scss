@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+@use "sass:color";
+
+// Font import
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// Variables
+
+$font-size-base: 1rem !default;
+$line-height-base: 1.5 !default;
+$spacing-unit: 1rem !default;
+
+$color-bg: #1e1a1d;
+$color-info: #1c5d99;
+$color-primary: #00ffee;
+$color-text: #f1f8fc;
+
+// Global style
+
+html {
+  font-size: 100%;
+  line-height: $line-height-base;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 0;
+  font-family:'Mukta Vaani', sans-serif;
+  color: $color-text;
+  background-color: $color-bg;
+}
+
+.app-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+section { 
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.625rem;
+}
+
+.w-1r {
+  width: 1.8rem !important;
+}
+
+// Typography scale
+
+h1 { 
+    font-size: 2.188 rem;
+    font-family: "Poppins", sans-serif;
+}
+
+h2 { 
+    font-size: 2rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+h3 { 
+    font-size: 1.563rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+h4 { 
+    font-size: 1.25rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+h5 { 
+    font-size: 1rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+// Link styles
+
+a {
+  color: $color-text;
+  text-decoration:none;
+  font-family: "Noto Sans", sans-serif;
+
+  &:hover, &:focus {
+    color: color.adjust($color-primary, $lightness: -10%);
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg px-3 px-sm-4 px-md-5" role="navigation" aria-label="Navigation principale">
+    <div class="container-fluid px-3 px-md-3 px-lg-4 d-flex align-items-center justify-content-between">
+        <a class="navbar-brand d-flex align-items-center" routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+            <img class="img-fluid logo me-2" src="assets/images/Logo.png" alt="Logo du Portfolio de Lucas Nayet" role="img">
+        </a>
+        <span class="name-title">Lucas Nayet</span>
+        <button class="navbar-toggler d-flex align-items-center justify-content-center p-0 border-0" type="button" (click)="toggleIcon()" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class='fs-1' [class.bx]="true" [class.bx-menu-alt-right]="!isMenuOpen" [class.bx-x]="isMenuOpen" [style.color]="isMenuOpen ? '#00ffee' : '#00ffee'"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                <li class="nav-item mx-2"> 
+                    <a class="nav-link px-3" routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <span class="nav-text pb-2">Accueil</span>
+                    </a>
+                </li>
+                <li class="nav-item mx-2"> 
+                    <a class="nav-link px-3" routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <span class="nav-text pb-2">Services</span>
+                    </a>
+                </li>
+                <li class="nav-item mx-2"> 
+                    <a class="nav-link px-3" routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <span class="nav-text pb-2">Compétences</span>
+                    </a>
+                </li>
+                <li class="nav-item mx-2"> 
+                    <a class="nav-link px-3" routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <span class="nav-text pb-2">Projets</span>
+                    </a>
+                </li>
+                <li class="nav-item mx-2"> 
+                    <a class="nav-link px-3" routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">
+                        <span class="nav-text pb-2">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

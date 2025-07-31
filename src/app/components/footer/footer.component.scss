@@ -10,58 +10,53 @@ $color-primary: #00ffee;
 $color-text: #f1f8fc;
 
 
-
-
-.navbar {
+.footer{
     position: relative;
     background-color: $color-bg;
-    min-height: 10rem;
+    min-height: 8rem;
     margin-right: auto;
     margin-left: auto;
-    box-shadow: 0 .5rem 0.6rem rgba(0, 255, 238, 0.2);
+    box-shadow: 0 -0.5rem 0.6rem rgba(0, 255, 238, 0.2);
 
-        .navbar-brand{
-            margin-right: 0 !important;
-        }
-    
-        .logo {
-            display: block;
-            width: auto;
-            height: auto;
-            max-height: 6rem;
-            margin-right: 0;
-        }
-
-        .name-title{
+        .social-link{
+            font-size: 1.563rem;
             color: $color-primary;
-            font-size: 1.8rem;
-            font-weight: 900;
-        }
-        
-        .nav-link {            
-            text-decoration: none;
-        }
+            border: 0.125rem solid $color-primary;
+            width: 2.2rem;
+            height: 2.2rem;
+            line-height: 2.2rem;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            margin: 0 0.625;
+            transition: 0.3s ease-in-out;
 
-        .nav-link:hover{
-            color: $color-primary;
-        }
-
-        @media (min-width: 992px) {
-            .navbar-toggler {
-                display: none !important;
-                }
+            &:hover{
+                transform: scale(1.2)translateY(-0.625rem);
+                background-color: $color-primary;
+                color: $color-bg;
+                box-shadow: 0 0 1.563rem $color-primary;
             }
-
-        .nav-text {
+        }
+        .no-wrap{
+            white-space: nowrap;
+        }
+        .divider{
+            width: 75%;
+            height: 2px;
+            background-color: #00ffee;
+        }
+        .footer-text{
             position: relative;
             display: inline-block;
             font-family: "Poppins", sans-serif;
             font-size: 0.9rem;
-            font-weight: 700;
+            font-weight: 500;
             text-decoration: none;
             color: $color-text;
             transition: text-shadow 0.4s ease, color 0.4s ease,
                         font-size 0.4s ease, color 0.4s ease;
+            
 
             &:hover{
                 color: $color-primary;
@@ -70,7 +65,7 @@ $color-text: #f1f8fc;
                     0 0 10px $color-primary,
                     0 0 20px $color-primary,
                     0 0 40px $color-primary;
-                font-size: 1.2rem;
+                cursor: pointer;
             }
 
             &::after {
@@ -94,14 +89,5 @@ $color-text: #f1f8fc;
             a.active {
                 text-decoration: underline;
             }
-        }
-
-        .dropdown-item {
-            color: $color-text;
-        }
-        
-        .form-control {
-            border-color: $color-primary;
-            border-radius: 1.2rem;
         }
 }
